@@ -2,7 +2,7 @@ import Installation from './Installation.js';
 import { glob } from 'glob';
 import { spawn } from './helpers.js';
 import path from 'node:path';
-import program from './program.js';
+import { program } from 'commander';
 
 export default class InstallationExtensions {
     inst;

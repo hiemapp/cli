@@ -1,6 +1,6 @@
 import path from 'node:path';
 import jsonfile from 'jsonfile';
-import program from './program.js';
+import { program } from 'commander';
 import { glob } from 'glob';
 import { spawn, isSubdir, formatPath } from './helpers.js';
 import fs from 'node:fs/promises';

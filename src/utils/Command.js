@@ -1,6 +1,6 @@
 import process from 'node:process';
 import findParentDir from 'find-parent-dir';
-import program from './program.js';
+import { program } from 'commander';
 import Installation from './Installation.js';
 
 export default class Command {
