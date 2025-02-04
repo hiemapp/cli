@@ -14,7 +14,7 @@ export class StartCommand extends Command {
     static async run(...args) {
         const inst = this.getInstallation();
 
-        await spawn(`yarn pm2 start "${PM2_APP_NAME}"`, inst.getServerDir());
+        await spawn(`yarn pm2 start --name "${PM2_APP_NAME}"`, inst.getServerDir());
         await spawn('yarn pm2 update', inst.getServerDir(), { stdio: null });
     }
 }
