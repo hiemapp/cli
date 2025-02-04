@@ -7,7 +7,7 @@ export class StopCommand extends Command {
 
     static register(program) {
         return this.handleRegister(program, command => {
-            command.description('hoi!')
+            command.description('Stop the home webserver.')
         })
     }
 

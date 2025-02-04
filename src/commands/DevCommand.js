@@ -13,7 +13,7 @@ export class DevCommand extends Command {
 
     static register(program) {
         return this.handleRegister(program, command => {
-            command.description('hoi!')
+            command.description('Start the home in development mode.')
         })
     }
 

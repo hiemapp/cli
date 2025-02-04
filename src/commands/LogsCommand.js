@@ -7,7 +7,7 @@ export class LogsCommand extends Command {
 
     static register(program) {
         return this.handleRegister(program, command => {
-            command.description('hoi!')
+            command.description('Show the latest PM2 logs of the home.')
         })
     }
 

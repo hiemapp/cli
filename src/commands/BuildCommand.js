@@ -13,7 +13,7 @@ export class BuildCommand extends Command {
 
     static register(program) {
         return this.handleRegister(program, command => {
-            command.description('hoi!')
+            command.description('Build source code of the home and extensions.')
         })
     }
 

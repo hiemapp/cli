@@ -13,7 +13,7 @@ export class UpdateCommand extends Command {
 
     static register(program) {
         return this.handleRegister(program, command => {
-            command.description('hoi!')
+            command.description('Update the home.')
         })
     }
 
