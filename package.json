@@ -1,0 +1,20 @@
+{
+  "name": "home-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "home": "./src/index.js"
+  },
+  "preferGlobal": true,
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "find-parent-dir": "^0.3.1",
+    "glob": "^11.0.1",
+    "jsonfile": "^6.1.0",
+    "minimatch": "^10.0.1",
+    "pm2": "^5.4.3",
+    "shelljs": "^0.8.5"
+  }
+}
