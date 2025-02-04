@@ -1,6 +1,7 @@
 import Command from '../utils/Command.js';
 import { CLI_GIT_URL } from '../utils/constants.js';
 import { spawn } from '../utils/helpers.js';
+import program from '../utils/program.js';
 
 export class UpdateCliCommand extends Command {
     static name = 'update-cli';
