@@ -15,6 +15,6 @@ export class StopCommand extends Command {
         const inst = this.getInstallation();
 
         await spawn(`yarn pm2 stop "${PM2_APP_NAME}"`, inst.getServerDir());
-        await spawn(`yarn pm2 save`, inst.getServerDir());
+        spawn(`yarn pm2 save`, inst.getServerDir(), { stdio: null });
     }
 }
