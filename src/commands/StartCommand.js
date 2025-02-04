@@ -7,7 +7,7 @@ export class StartCommand extends Command {
 
     static register(program) {
         return this.handleRegister(program, command => {
-            command.description('Start the home webserver.')
+            command.description('Start the home webserver using PM2.')
         })
     }
 
