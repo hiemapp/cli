@@ -4,3 +4,4 @@ export { DevCommand } from './DevCommand.js';
 export { BuildCommand } from './BuildCommand.js';
 export { StopCommand } from './StopCommand.js';
 export { LogsCommand } from './LogsCommand.js';
+export { UpdateCliCommand } from './UpdateCliCommand.js';
